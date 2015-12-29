@@ -1,0 +1,32 @@
+{
+  "name": "mediafoundry/api-client",
+  "description": "The MediaFoundry API client library.",
+  "keywords": [
+    "mediafoundry",
+    "api",
+    "client"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.5.9",
+    "guzzlehttp/guzzle": "^6.1",
+    "mockery/mockery": "^0.9.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MediaFoundry\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MediaFoundryTest\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}

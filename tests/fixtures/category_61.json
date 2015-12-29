@@ -1,0 +1,22 @@
+{
+  "data":[
+    {
+      "id":61,
+      "label":"Santos Tour Down Under",
+      "uuid":"3ad9ff7c-c5d1-4219-861e-54947354e067",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/61"
+        }
+      },
+      "name":"Santos Tour Down Under",
+      "children":[
+
+      ]
+    }
+  ],
+  "self":{
+    "title":"Self",
+    "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/61"
+  }
+}

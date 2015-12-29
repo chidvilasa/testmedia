@@ -1,0 +1,237 @@
+{
+  "data":[
+    {
+      "id":61,
+      "label":"Santos Tour Down Under",
+      "uuid":"3ad9ff7c-c5d1-4219-861e-54947354e067",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/61"
+        }
+      },
+      "name":"Santos Tour Down Under",
+      "parent":false
+    },
+    {
+      "id":63,
+      "label":"Santos Women\u2019s Tour",
+      "uuid":"e1f129c0-f92f-43f9-909a-b8fcb71ebde3",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/63"
+        }
+      },
+      "name":"Santos Women\u2019s Tour",
+      "parent":false
+    },
+    {
+      "id":67,
+      "label":"Regions of South Australia",
+      "uuid":"234b0f49-569c-4946-9972-b993ff86d79a",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/67"
+        }
+      },
+      "name":"Regions of South Australia",
+      "parent":false
+    },
+    {
+      "id":69,
+      "label":"Interviews",
+      "uuid":"d3ff86a9-e74f-43ed-8d31-f57d3583f7f2",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/69"
+        }
+      },
+      "name":"Interviews",
+      "parent":false
+    },
+    {
+      "id":71,
+      "label":"Taste the Tour",
+      "uuid":"903185d7-40c7-49b1-9705-df7c07a29056",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/71"
+        }
+      },
+      "name":"Taste the Tour",
+      "parent":false
+    },
+    {
+      "id":73,
+      "label":"Festival of Cycling",
+      "uuid":"f3ec9957-5e0e-4014-970e-390150f6971d",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/73"
+        }
+      },
+      "name":"Festival of Cycling",
+      "parent":false
+    },
+    {
+      "id":75,
+      "label":"Play of the Day",
+      "uuid":"7443d22f-7013-4391-8548-cfa0ee220073",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/75"
+        }
+      },
+      "name":"Play of the Day",
+      "parent":false
+    },
+    {
+      "id":77,
+      "label":"Fan Cam",
+      "uuid":"f606e242-fffd-4fe8-8e8f-f2a1dcfe342d",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/77"
+        }
+      },
+      "name":"Fan Cam",
+      "parent":false
+    },
+    {
+      "id":79,
+      "label":"Talking Tactics",
+      "uuid":"26e19b15-86b7-4e05-a2e9-8baad9864569",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/79"
+        }
+      },
+      "name":"Talking Tactics",
+      "parent":false
+    },
+    {
+      "id":81,
+      "label":"Pro Tips",
+      "uuid":"fcce8d3f-efc8-4b93-8354-f6104f39b694",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/81"
+        }
+      },
+      "name":"Pro Tips",
+      "parent":false
+    },
+    {
+      "id":83,
+      "label":"Behind the Scenes",
+      "uuid":"a01df7e7-6e54-4bec-93e6-363487a5ba8f",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/83"
+        }
+      },
+      "name":"Behind the Scenes",
+      "parent":false
+    },
+    {
+      "id":85,
+      "label":"Race Highlights",
+      "uuid":"64a3ea27-5fc3-4f49-b95c-ea6f14efed9c",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/85"
+        }
+      },
+      "name":"Race Highlights",
+      "parent":true
+    },
+    {
+      "id":87,
+      "label":"People\u2019s Choice Classic",
+      "uuid":"da67efe9-f99a-4b65-9d83-04a6c90b3f39",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/87"
+        }
+      },
+      "name":"People\u2019s Choice Classic",
+      "parent":false
+    },
+    {
+      "id":89,
+      "label":"Hostworks Stage 1",
+      "uuid":"2eac6f93-30b0-45cb-b5df-86ba363ff1be",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/89"
+        }
+      },
+      "name":"Hostworks Stage 1",
+      "parent":false
+    },
+    {
+      "id":91,
+      "label":"TBC Stage 2",
+      "uuid":"9012e30c-c9f4-45a5-9a23-2599242b9397",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/91"
+        }
+      },
+      "name":"TBC Stage 2",
+      "parent":false
+    },
+    {
+      "id":93,
+      "label":"Thomas Foods Stage 3",
+      "uuid":"1dbc5a99-4c23-4d57-8002-6063931ae9f0",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/93"
+        }
+      },
+      "name":"Thomas Foods Stage 3",
+      "parent":false
+    },
+    {
+      "id":95,
+      "label":"Bupa Stage 4",
+      "uuid":"2b2d5f0f-401b-4c19-8e03-b9f3a068cecf",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/95"
+        }
+      },
+      "name":"Bupa Stage 4",
+      "parent":false
+    },
+    {
+      "id":97,
+      "label":"Bike Exchange Stage 5",
+      "uuid":"ad812619-dbb5-4c0c-afa0-f1689669765f",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/97"
+        }
+      },
+      "name":"Bike Exchange Stage 5",
+      "parent":false
+    },
+    {
+      "id":99,
+      "label":"MAC Be Safe Be Seen Stage 6",
+      "uuid":"683685c5-61bc-40fc-8103-398bae17a9db",
+      "_links":{
+        "self":{
+          "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories\/99"
+        }
+      },
+      "name":"MAC Be Safe Be Seen Stage 6",
+      "parent":false
+    }
+  ],
+  "count":19,
+  "self":{
+    "title":"Self",
+    "href":"http:\/\/admin-latest.pp.mediafoundry.com.au\/api\/v1.0\/categories"
+  }
+}

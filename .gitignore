@@ -1,0 +1,5 @@
+/vendor
+/build
+/cache
+sami.phar
+sami.php

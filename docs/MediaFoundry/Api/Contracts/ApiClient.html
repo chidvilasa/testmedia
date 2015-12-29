@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>MediaFoundry\Api\Contracts\ApiClient | API</title>
+
+            <link rel="stylesheet" type="text/css" href="../../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/sami.css">
+        <script src="../../../js/jquery-1.11.1.min.js"></script>
+        <script src="../../../js/bootstrap.min.js"></script>
+        <script src="../../../js/typeahead.min.js"></script>
+        <script src="../../../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:MediaFoundry_Api_Contracts_ApiClient" data-root-path="../../../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                <form id="search-form" action="../../../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../../index.html">API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../../classes.html">Classes</a></li>
+                                            <li><a href="../../../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../../traits.html">Traits</a></li>
+                    <li><a href="../../../doc-index.html">Index</a></li>
+                    <li><a href="../../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">interface</span></li>
+                                                            <li><a href="../../../MediaFoundry.html">MediaFoundry</a></li>
+                                        <li><a href="../../../MediaFoundry/Api.html">Api</a></li>
+                                        <li><a href="../../../MediaFoundry/Api/Contracts.html">Contracts</a></li>
+    
+                <li>ApiClient</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>ApiClient</h1>
+    </div>
+
+    <p>    interface
+    <strong>ApiClient</strong>
+</p>
+
+            <div class="description">
+            <p>MediaFoundry API Client interface</p>                    </div>
+    
+    
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <a href="../../../MediaFoundry/Api/Entities/Category.html"><abbr title="MediaFoundry\Api\Entities\Category">Category</abbr></a>|array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_categories">categories</a>(
+    int|null $entity_id = null)
+                                            <p>Return an array of Category entities from the categories endpoint,
+or the specific category if the $entity_id is provided.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <a href="../../../MediaFoundry/Api/Entities/Episode.html"><abbr title="MediaFoundry\Api\Entities\Episode">Episode</abbr></a>|array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_episodes">episodes</a>(
+    int|null $entity_id = null)
+                                            <p>Return an array of Episode entities from the episodes endpoint,
+or the specific category if the $entity_id is provided.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <a href="../../../MediaFoundry/Api/Entities/Event.html"><abbr title="MediaFoundry\Api\Entities\Event">Event</abbr></a>|array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_events">events</a>(
+    int|null $entity_id = null)
+                                            <p>Return an array of Event entities from the events endpoint,
+or the specific event if the $entity_id is provided.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <a href="../../../MediaFoundry/Api/Entities/Genre.html"><abbr title="MediaFoundry\Api\Entities\Genre">Genre</abbr></a>|array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_genres">genres</a>(
+    int|null $entity_id = null)
+                                            <p>Return an array of Genre entities from the gendes endpoint,
+or the specific genre if the $entity_id is provided.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <a href="../../../MediaFoundry/Api/Entities/Season.html"><abbr title="MediaFoundry\Api\Entities\Season">Season</abbr></a>|array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_seasons">seasons</a>(
+    int|null $entity_id = null)
+                                            <p>Return an array of Season entities from the seasons endpoint,
+or the specific season if the $entity_id is provided.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    mixed
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_search">search</a>()
+                                            <p>Search the API.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <a href="../../../MediaFoundry/Api/Entities/Season.html"><abbr title="MediaFoundry\Api\Entities\Season">Season</abbr></a>|array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_series">series</a>(
+    int|null $entity_id = null)
+                                            <p>Return an array of Season entities from the seasons endpoint,
+or the specific season if the $entity_id is provided.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <a href="../../../MediaFoundry/Api/Entities/Video.html"><abbr title="MediaFoundry\Api\Entities\Video">Video</abbr></a>|array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_videos">videos</a>(
+    int|null $entity_id = null, 
+    array $filter = array())
+                                            <p>Return an array of Video entities from the videos endpoint,
+or the specific video if the $entity_id is provided. If
+$filter is supplied, the return will be filtered videos.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string|bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_next">next</a>()
+                                            <p>Get the next link, if set.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string|bool
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_previous">previous</a>()
+                                            <p>Get the previous link, if set.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method_categories">
+        <div class="location">at line 23</div>
+        <code>                    
+    <a href="../../../MediaFoundry/Api/Entities/Category.html"><abbr title="MediaFoundry\Api\Entities\Category">Category</abbr></a>|array
+    <strong>categories</strong>(
+    int|null $entity_id = null)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Return an array of Category entities from the categories endpoint,
+or the specific category if the $entity_id is provided.</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    int|null</td>
+                <td>$entity_id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <a href="../../../MediaFoundry/Api/Entities/Category.html"><abbr title="MediaFoundry\Api\Entities\Category">Category</abbr></a>|array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_episodes">
+        <div class="location">at line 33</div>
+        <code>                    
+    <a href="../../../MediaFoundry/Api/Entities/Episode.html"><abbr title="MediaFoundry\Api\Entities\Episode">Episode</abbr></a>|array
+    <strong>episodes</strong>(
+    int|null $entity_id = null)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Return an array of Episode entities from the episodes endpoint,
+or the specific category if the $entity_id is provided.</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    int|null</td>
+                <td>$entity_id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <a href="../../../MediaFoundry/Api/Entities/Episode.html"><abbr title="MediaFoundry\Api\Entities\Episode">Episode</abbr></a>|array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_events">
+        <div class="location">at line 43</div>
+        <code>                    
+    <a href="../../../MediaFoundry/Api/Entities/Event.html"><abbr title="MediaFoundry\Api\Entities\Event">Event</abbr></a>|array
+    <strong>events</strong>(
+    int|null $entity_id = null)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Return an array of Event entities from the events endpoint,
+or the specific event if the $entity_id is provided.</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    int|null</td>
+                <td>$entity_id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <a href="../../../MediaFoundry/Api/Entities/Event.html"><abbr title="MediaFoundry\Api\Entities\Event">Event</abbr></a>|array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_genres">
+        <div class="location">at line 53</div>
+        <code>                    
+    <a href="../../../MediaFoundry/Api/Entities/Genre.html"><abbr title="MediaFoundry\Api\Entities\Genre">Genre</abbr></a>|array
+    <strong>genres</strong>(
+    int|null $entity_id = null)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Return an array of Genre entities from the gendes endpoint,
+or the specific genre if the $entity_id is provided.</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    int|null</td>
+                <td>$entity_id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <a href="../../../MediaFoundry/Api/Entities/Genre.html"><abbr title="MediaFoundry\Api\Entities\Genre">Genre</abbr></a>|array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_seasons">
+        <div class="location">at line 63</div>
+        <code>                    
+    <a href="../../../MediaFoundry/Api/Entities/Season.html"><abbr title="MediaFoundry\Api\Entities\Season">Season</abbr></a>|array
+    <strong>seasons</strong>(
+    int|null $entity_id = null)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Return an array of Season entities from the seasons endpoint,
+or the specific season if the $entity_id is provided.</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    int|null</td>
+                <td>$entity_id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <a href="../../../MediaFoundry/Api/Entities/Season.html"><abbr title="MediaFoundry\Api\Entities\Season">Season</abbr></a>|array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_search">
+        <div class="location">at line 71</div>
+        <code>                    
+    mixed
+    <strong>search</strong>()</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Search the API.</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    mixed</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_series">
+        <div class="location">at line 81</div>
+        <code>                    
+    <a href="../../../MediaFoundry/Api/Entities/Season.html"><abbr title="MediaFoundry\Api\Entities\Season">Season</abbr></a>|array
+    <strong>series</strong>(
+    int|null $entity_id = null)</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Return an array of Season entities from the seasons endpoint,
+or the specific season if the $entity_id is provided.</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    int|null</td>
+                <td>$entity_id</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <a href="../../../MediaFoundry/Api/Entities/Season.html"><abbr title="MediaFoundry\Api\Entities\Season">Season</abbr></a>|array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_videos">
+        <div class="location">at line 93</div>
+        <code>                    
+    <a href="../../../MediaFoundry/Api/Entities/Video.html"><abbr title="MediaFoundry\Api\Entities\Video">Video</abbr></a>|array
+    <strong>videos</strong>(
+    int|null $entity_id = null, 
+    array $filter = array())</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Return an array of Video entities from the videos endpoint,
+or the specific video if the $entity_id is provided. If
+$filter is supplied, the return will be filtered videos.</p>                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    int|null</td>
+                <td>$entity_id</td>
+                <td>
+</td>
+            </tr>
+                    <tr>
+                <td>
+    array</td>
+                <td>$filter</td>
+                <td>
+</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <a href="../../../MediaFoundry/Api/Entities/Video.html"><abbr title="MediaFoundry\Api\Entities\Video">Video</abbr></a>|array</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_next">
+        <div class="location">at line 100</div>
+        <code>                    
+    string|bool
+    <strong>next</strong>()</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Get the next link, if set.</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string|bool</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_previous">
+        <div class="location">at line 107</div>
+        <code>                    
+    string|bool
+    <strong>previous</strong>()</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Get the previous link, if set.</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string|bool</td>
+            <td>
+</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>
