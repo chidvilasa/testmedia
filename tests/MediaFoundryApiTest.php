@@ -162,6 +162,18 @@ class MediaFoundryApiTest extends PHPUnit_Framework_TestCase
     }
 
 
+    /** @test */
+    public function it_fetches_videos_from_the_api_sorted_by_homepage_promote_descending()
+    {
+        $videos = $this->client->videos(null, [ ], [ '-homepage_promote', ]);
+
+        $video = array_shift($videos);
+
+        $this->assertInstanceOf('MediaFoundry\Api\Entities\Video', $video);
+        $this->assertTrue($video->homepage_promote);
+    }
+
+
     protected function setUp()
     {
         parent::setUp();

@@ -31,7 +31,7 @@ class MediaFoundryApiSeasonTest extends PHPUnit_Framework_TestCase
     /** @test */
     public function it_loads_a_single_season_from_the_api_seasons_endpoint()
     {
-        $client = $this->mockMediaFoundryApiClient('season_65');
+        $client = $this->mockMediaFoundryApiClient('seasons_65');
 
         $season = $client->seasons($this->endpointUri('seasons/65'));
 
@@ -51,8 +51,8 @@ class MediaFoundryApiSeasonTest extends PHPUnit_Framework_TestCase
         $this->assertInstanceOf('\MediaFoundry\Api\Entities\Series', $season->series);
         $this->assertSame(63, $season->series->id);
         $this->assertInternalType('array', $season->episodes);
-        $this->assertCount(2, $season->episodes);
+        $this->assertCount(3, $season->episodes);
         $this->assertContainsOnlyInstancesOf('\MediaFoundry\Api\Entities\Episode', $season->episodes);
-        $this->assertSame(73, $season->episodes[0]->id);
+        $this->assertSame(71, $season->episodes[0]->id);
     }
 }

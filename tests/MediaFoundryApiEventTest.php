@@ -38,7 +38,7 @@ class MediaFoundryApiEventTest extends PHPUnit_Framework_TestCase
      */
     public function it_loads_a_single_unscheduled_event_from_the_api_events_endpoint()
     {
-        $client = $this->mockMediaFoundryApiClient('video_27');
+        $client = $this->mockMediaFoundryApiClient('events_27');
 
         $event = $client->events($this->endpointUri('events/27'));
 
@@ -48,7 +48,7 @@ class MediaFoundryApiEventTest extends PHPUnit_Framework_TestCase
         $this->assertEquals('411109f6-23b1-493b-922e-b5ce0d4d947c', $event->uuid);
         $this->assertEquals('http://admin-latest.pp.mediafoundry.com.au/api/v1.0/events/27', $event->self);
         $this->assertEmpty($event->body);
-        $this->assertFalse($event->event_type);
+        $this->assertEquals('Ongoing event', $event->event_type);
         $this->assertEquals('Video', $event->media_type);
         $this->assertFalse($event->scheduled);
         $this->assertNull($event->schedule);
@@ -67,12 +67,13 @@ class MediaFoundryApiEventTest extends PHPUnit_Framework_TestCase
      */
     public function it_loads_a_single_scheduled_event_from_the_api_events_endpoint()
     {
-    	 $client = $this->mockMediaFoundryApiClient('video_29');
+    	 $client = $this->mockMediaFoundryApiClient('events_29');
 
         $event = $client->events('http://admin-latest.pp.mediafoundry.com.au/api/v1.0/events/29');
 
         // Assert only items relevant to the schedule, seeing as we've already tested the event itself
         $this->assertInstanceOf('\MediaFoundry\Api\Entities\Event', $event);
+        $this->assertEquals('Time Bounded', $event->event_type);
         $this->assertTrue($event->scheduled);
         $this->assertInstanceOf('\MediaFoundry\Api\EventSchedule', $event->schedule);
         $this->assertInstanceOf('\DateTime', $event->schedule->start());

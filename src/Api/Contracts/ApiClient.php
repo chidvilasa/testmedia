@@ -24,50 +24,60 @@ interface ApiClient
      * or the specific category if the $entity_id is provided.
      *
      * @param  int|null  $entity_id
+     * @param  array     $filter
+     * @param  array     $sort
      *
      * @return \MediaFoundry\Api\Entities\Category|array
      */
-    public function categories($entity_id = null);
+    public function categories($entity_id = null, array $filter = [], array $sort = []);
 
     /**
      * Return an array of Episode entities from the episodes endpoint,
      * or the specific category if the $entity_id is provided.
      *
      * @param  int|null  $entity_id
+     * @param  array     $filter
+     * @param  array     $sort
      *
      * @return \MediaFoundry\Api\Entities\Episode|array
      */
-    public function episodes($entity_id = null);
+    public function episodes($entity_id = null, array $filter = [], array $sort = []);
 
     /**
      * Return an array of Event entities from the events endpoint,
      * or the specific event if the $entity_id is provided.
      *
      * @param  int|null  $entity_id
+     * @param  array     $filter
+     * @param  array     $sort
      *
      * @return \MediaFoundry\Api\Entities\Event|array
      */
-    public function events($entity_id = null);
+    public function events($entity_id = null, array $filter = [], array $sort = []);
 
     /**
      * Return an array of Genre entities from the gendes endpoint,
      * or the specific genre if the $entity_id is provided.
      *
      * @param  int|null  $entity_id
+     * @param  array     $filter
+     * @param  array     $sort
      *
      * @return \MediaFoundry\Api\Entities\Genre|array
      */
-    public function genres($entity_id = null);
+    public function genres($entity_id = null, array $filter = [], array $sort = []);
 
     /**
      * Return an array of Season entities from the seasons endpoint,
      * or the specific season if the $entity_id is provided.
      *
      * @param  int|null  $entity_id
+     * @param  array     $filter
+     * @param  array     $sort
      *
      * @return \MediaFoundry\Api\Entities\Season|array
      */
-    public function seasons($entity_id = null);
+    public function seasons($entity_id = null, array $filter = [], array $sort = []);
 
 
     /**
@@ -82,22 +92,26 @@ interface ApiClient
      * or the specific season if the $entity_id is provided.
      *
      * @param  int|null  $entity_id
+     * @param  array     $filter
+     * @param  array     $sort
      *
      * @return \MediaFoundry\Api\Entities\Season|array
      */
-    public function series($entity_id = null);
+    public function series($entity_id = null, array $filter = [], array $sort = []);
 
     /**
      * Return an array of Video entities from the videos endpoint,
      * or the specific video if the $entity_id is provided. If
      * $filter is supplied, the return will be filtered videos.
+     * If $sort is supplied, the return will be sorted.
      *
      * @param  int|null  $entity_id
      * @param  array     $filter
+     * @param  array     $sort
      *
      * @return \MediaFoundry\Api\Entities\Video|array
      */
-    public function videos($entity_id = null, array $filter = []);
+    public function videos($entity_id = null, array $filter = [], array $sort = []);
 
     /**
      * Get the next link, if set.

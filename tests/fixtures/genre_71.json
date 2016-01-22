@@ -1,0 +1,18 @@
+{
+    "data": [
+        {
+            "_links": {
+                "self": {
+                    "href": "http://admin-latest.pp.mediafoundry.com.au/api/v1.0/genre/71"
+                }
+            },
+            "id": 71,
+            "label": "Action",
+            "uuid": "25645a86-5443-46c8-8489-212d5f185f27"
+        }
+    ],
+    "self": {
+        "href": "http://admin-latest.pp.mediafoundry.com.au/api/v1.0/genre/71",
+        "title": "Self"
+    }
+}

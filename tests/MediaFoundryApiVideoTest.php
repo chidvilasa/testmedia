@@ -55,7 +55,7 @@ class MediaFoundryApiVideoTest extends PHPUnit_Framework_TestCase
         $this->assertEquals('http://admin-latest.pp.mediafoundry.com.au/embed/556ce939b1654', $video->embed);
         $this->assertNull($video->ad->{'_links'}->self->href);
         $this->assertNull($video->comments);
-        $this->assertEquals('0', $video->homepage_promote);
+        $this->assertFalse($video->homepage_promote);
     }
 
 
@@ -77,5 +77,55 @@ class MediaFoundryApiVideoTest extends PHPUnit_Framework_TestCase
         $video = $videos[0];
         $this->assertSame(23, $video->id);
         $this->assertEquals('Media Foundry promo', $video->label);
+    }
+
+
+    /** @test */
+    public function it_loads_videos_sorted_by_created_descending()
+    {
+        $client = $this->mockMediaFoundryApiClient('categories_sorted_created_desc');
+        $videos = $client->videos(null, [ ], [ '-created', ]);
+        $video  = array_shift($videos);
+
+        $this->assertInstanceOf('MediaFoundry\Api\Entities\Video', $video);
+        $this->assertEquals('VOD Motoring 38', $video->label);
+    }
+
+
+    /** @test */
+    public function it_loads_videos_sorted_by_created_ascending()
+    {
+        $client = $this->mockMediaFoundryApiClient('categories_sorted_created_asc');
+        $videos = $client->videos(null, [ ], [ 'created', ]);
+        $video  = array_shift($videos);
+
+        $this->assertInstanceOf('MediaFoundry\Api\Entities\Video', $video);
+        $this->assertEquals('Media Foundry promo', $video->label);
+    }
+
+
+    /** @test */
+    public function it_loads_videos_sorted_by_homepage_promote_descending()
+    {
+        $client = $this->mockMediaFoundryApiClient('categories_sorted_homepage_promote_desc');
+
+        $videos = $client->videos(null, [ ], [ '-homepage_promote', ]);
+        $video  = array_shift($videos);
+
+        $this->assertInstanceOf('MediaFoundry\Api\Entities\Video', $video);
+        $this->assertEquals('VOD Motoring 38', $video->label);
+    }
+
+
+    /** @test */
+    public function it_loads_videos_sorted_by_homepage_promote_ascending()
+    {
+        $client = $this->mockMediaFoundryApiClient('categories_sorted_homepage_promote_asc');
+
+        $videos = $client->videos(null, [ ], [ 'homepage_promote', ]);
+        $video  = array_shift($videos);
+
+        $this->assertInstanceOf('MediaFoundry\Api\Entities\Video', $video);
+        $this->assertEquals('VOD Motoring 30', $video->label);
     }
 }

@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "_links": {
+                "self": {
+                    "href": "http://admin-latest.pp.mediafoundry.com.au/api/v1.0/categories/61"
+                }
+            },
+            "children": [],
+            "id": 61,
+            "label": "Santos Tour Down Under",
+            "name": "Santos Tour Down Under",
+            "thumbnail": "http://admin-latest.pp.mediafoundry.com.au/sites/default/files/1200x400.png",
+            "uuid": "1b3ad51c-c4c4-4751-889d-eb8314354a5a"
+        }
+    ],
+    "self": {
+        "href": "http://admin-latest.pp.mediafoundry.com.au/api/v1.0/categories/61",
+        "title": "Self"
+    }
+}

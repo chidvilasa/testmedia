@@ -82,6 +82,18 @@ abstract class Entity
 
 
     /**
+     * Get the homepage_promote value as a boolean.
+     *
+     * @return bool
+     */
+    public function homepage_promote()
+    {
+        // Should probably be an ===, but who knows what the API will return day to day
+        return $this->entity->homepage_promote == 1;
+    }
+
+
+    /**
      * Determine if the given key ie set.
      *
      * @param  string  $key

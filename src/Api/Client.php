@@ -93,13 +93,13 @@ class Client implements ApiClient
      *
      * @inheritdoc
      */
-    public function categories($entity_id = null)
+    public function categories($entity_id = null, array $filter = [], array $sort = [])
     {
         if (! is_null($entity_id)) {
             return $this->getCategory($entity_id);
         }
 
-        $this->get($this->url('categories'));
+        $this->get($this->url('categories'), $this->buildQueryOption($filter, $sort));
 
         return $this->arrayOfEntitiesFromResponse(Category::class);
     }
@@ -111,13 +111,13 @@ class Client implements ApiClient
      *
      * @inheritdoc
      */
-    public function episodes($entity_id = null)
+    public function episodes($entity_id = null, array $filter = [], array $sort = [])
     {
         if (! is_null($entity_id)) {
             return $this->getEpisode($entity_id);
         }
 
-        $this->get($this->url('episodes'));
+        $this->get($this->url('episodes'), $this->buildQueryOption($filter, $sort));
 
         return $this->arrayOfEntitiesFromResponse(Episode::class);
     }
@@ -129,13 +129,13 @@ class Client implements ApiClient
      *
      * @inheritdoc
      */
-    public function events($entity_id = null)
+    public function events($entity_id = null, array $filter = [], array $sort = [])
     {
         if (! is_null($entity_id)) {
             return $this->getEvent($entity_id);
         }
 
-        $this->get($this->url('events'));
+        $this->get($this->url('events'), $this->buildQueryOption($filter, $sort));
 
         return $this->arrayOfEntitiesFromResponse(Event::class);
     }
@@ -147,13 +147,13 @@ class Client implements ApiClient
      *
      * @inheritdoc
      */
-    public function genres($entity_id = null)
+    public function genres($entity_id = null, array $filter = [], array $sort = [])
     {
         if (! is_null($entity_id)) {
             return $this->getGenre($entity_id);
         }
 
-        $this->get($this->url('genre'));
+        $this->get($this->url('genre'), $this->buildQueryOption($filter, $sort));
 
         return $this->arrayOfEntitiesFromResponse(Genre::class);
     }
@@ -165,13 +165,13 @@ class Client implements ApiClient
      *
      * @inheritdoc
      */
-    public function seasons($entity_id = null)
+    public function seasons($entity_id = null, array $filter = [], array $sort = [])
     {
         if (! is_null($entity_id)) {
             return $this->getSeason($entity_id);
         }
 
-        $this->get($this->url('seasons'));
+        $this->get($this->url('seasons'), $this->buildQueryOption($filter, $sort));
 
         return $this->arrayOfEntitiesFromResponse(Season::class);
     }
@@ -182,13 +182,13 @@ class Client implements ApiClient
      *
      * @inheritdoc
      */
-    public function series($entity_id = null)
+    public function series($entity_id = null, array $filter = [], array $sort = [])
     {
         if (! is_null($entity_id)) {
             return $this->getSeries($entity_id);
         }
 
-        $this->get($this->url('series'));
+        $this->get($this->url('series'), $this->buildQueryOption($filter, $sort));
 
         return $this->arrayOfEntitiesFromResponse(Series::class);
     }
@@ -201,13 +201,13 @@ class Client implements ApiClient
      *
      * @inheritdoc
      */
-    public function videos($entity_id = null, array $filter = [])
+    public function videos($entity_id = null, array $filter = [], array $sort = [])
     {
         if (! is_null($entity_id)) {
             return $this->getVideo($entity_id);
         }
 
-        $this->get($this->url('videos'), [ 'query' => $filter, ]);
+        $this->get($this->url('videos'), $this->buildQueryOption($filter, $sort));
 
         return $this->arrayOfEntitiesFromResponse(Video::class);
     }
@@ -392,5 +392,19 @@ class Client implements ApiClient
     private function arrayOfEntitiesFromResponse($entityName)
     {
         return $this->collectEntitiesFromArray($this->getResponseBody()->data, $entityName);
+    }
+
+
+    /**
+     * Build the query option array to be passed to the HTTP client.
+     *
+     * @param  array $filter
+     * @param  array $sort
+     *
+     * @return array
+     */
+    private function buildQueryOption(array $filter = [], array $sort = [])
+    {
+        return [ 'query' => array_merge($filter, [ 'sort' => join(',', array_map('trim', $sort)), ]), ];
     }
 }

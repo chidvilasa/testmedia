@@ -1,4 +1,4 @@
-# MediaFoundry API Client v1.0
+# MediaFoundry API Client v1.2
 
 ## Introduction
 
@@ -12,15 +12,15 @@ Require the client in your project's `composer.json` file:
 
 ```javascript
 {
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "git@hwkpcode.hostworks.com.au:MediaFoundry/MediaFoundry-API-Client.git"
-		}
-	],
-	"require": {
-		"mediafoundry/api-client": "~1.0"
-	}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@hwkpcode.hostworks.com.au:MediaFoundry/MediaFoundry-API-Client.git"
+        }
+    ],
+    "require": {
+        "mediafoundry/api-client": "~1.0"
+    }
 }
 ```
 
@@ -85,7 +85,7 @@ class PageController extends Controller
 
     public function showVideo($video_id, ApiClient $client)
     {
-		// Get the video identified by $video_id
+        // Get the video identified by $video_id
         $video = $client->videos($video_id);
 
         return view('video.show', compact('video'));
@@ -98,64 +98,77 @@ class PageController extends Controller
 <table>
 <thead>
 <tr>
-	<th>Method</th>
-	<th>Description</th>
+    <th>Method</th>
+    <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-	<td><code>categories($entity_id = null)</code></td>
+    <td><code>categories($entity_id = null, $filter = [], $sort = [])</code></td>
     <td>
         If <code>$entity_id</code> is supplied, return a specific category identified by <code>$entity_id</code>.<br />
-        If <code>$entity_id</code> is null, return all categories configured in the API.
+        If <code>$entity_id</code> is null, return all categories configured in the API.<br />
+        If <code>$filter</code> is a non-empty array, filter the returned categories (ignored if $entity_id supplied).<br />
+        If <code>$sort</code> is a non-empty array, sort the returned categories (ignored if $entity_id is supplied).
     </td>
 
 </tr>
 <tr>
-    <td><code>episodes($entity_id = null</code></td>
+    <td><code>episodes($entity_id = null, $filter = [], $sort = [])</code></td>
     <td>
         If <code>$entity_id</code> is supplied, return a specific episode identified by <code>$entity_id</code>.<br />
-        If <code>$entity_id</code> is null, return all episodes configured in the API.
+        If <code>$entity_id</code> is null, return all episodes configured in the API.<br />
+        If <code>$filter</code> is a non-empty array, filter the returned episodes (ignored if $entity_id supplied).<br />
+        If <code>$sort</code> is a non-empty array, sort the returned episodes (ignored if $entity_id is supplied).
     </td>
 
 </tr>
 <tr>
-	<td><code>events($entity_id = null)</code></td>
+    <td><code>events($entity_id = null, $filter = [], $sort = [])</code></td>
     <td>
         If <code>$entity_id</code> is supplied, return a specific event identified by <code>$entity_id</code>.<br />
-        If <code>$entity_id</code> is null, return all events configured in the API.
+        If <code>$entity_id</code> is null, return all events configured in the API.<br />
+        If <code>$filter</code> is a non-empty array, filter the returned events (ignored if $entity_id supplied).<br />
+        If <code>$sort</code> is a non-empty array, sort the returned events (ignored if $entity_id is supplied).
     </td>
 
 </tr>
 <tr>
-    <td><code>genres($entity_id = null)</code></td>
+    <td><code>genres($entity_id = null, $filter = [], $sort = [])</code></td>
     <td>
         If <code>$entity_id</code> is supplied, return a specific genre identified by <code>$entity_id</code>.<br />
-        If <code>$entity_id</code> is null, return all genres configured in the API.
+        If <code>$entity_id</code> is null, return all genres configured in the API.<br />
+        If <code>$filter</code> is a non-empty array, filter the returned genres (ignored if $entity_id supplied).<br />
+        If <code>$sort</code> is a non-empty array, sort the returned genres (ignored if $entity_id is supplied).
     </td>
 
 </tr>
 <tr>
-    <td><code>seasons($entity_id = null)</code></td>
+    <td><code>seasons($entity_id = null, $filter = [], $sort = [])</code></td>
     <td>
         If <code>$entity_id</code> is supplied, return a specific season identified by <code>$entity_id</code>.<br />
-        If <code>$entity_id</code> is null, return all seasons configured in the API.
+        If <code>$entity_id</code> is null, return all seasons configured in the API.<br />
+        If <code>$filter</code> is a non-empty array, filter the returned seasons (ignored if $entity_id supplied).<br />
+        If <code>$sort</code> is a non-empty array, sort the returned seasons (ignored if $entity_id is supplied).
     </td>
 
 </tr>
 <tr>
-    <td><code>series($entity_id = null)</code></td>
+    <td><code>series($entity_id = null, $filter = [], $sort = [])</code></td>
     <td>
         If <code>$entity_id</code> is supplied, return a specific series identified by <code>$entity_id</code>.<br />
-        If <code>$entity_id</code> is null, return all series configured in the API.
+        If <code>$entity_id</code> is null, return all series configured in the API.<br />
+        If <code>$filter</code> is a non-empty array, filter the returned series (ignored if $entity_id supplied).<br />
+        If <code>$sort</code> is a non-empty array, sort the returned series (ignored if $entity_id is supplied).
     </td>
 </tr>
 <tr>
-    <td><code>videos($entity_id = null, $filter = [])</code></td>
+    <td><code>videos($entity_id = null, $filter = [], $sort = [])</code></td>
     <td>
         If <code>$entity_id</code> is supplied, return a specific video identified by <code>$entity_id</code>.<br />
-        If <code>$entity_id</code> is null, return all videos configured in the API.
-        If <code>$filter</code> is a non-empty array, the returned videos will be filtered based on filter data.
+        If <code>$entity_id</code> is null, return all videos configured in the API.<br />
+        If <code>$filter</code> is a non-empty array, filter the returned videos (ignored if $entity_id supplied).<br />
+        If <code>$sort</code> is a non-empty array, sort the returned videos (ignored if $entity_id is supplied).
     </td>
 </tr>
 </tbody>
@@ -168,26 +181,26 @@ Each of the available methods will return either an array of, or a single instan
 <table>
 <thead>
 <tr>
-	<th>Generic Entity Method</th>
-	<th>Description</th>
+    <th>Generic Entity Method</th>
+    <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-	<td><code>id</code></td>
-	<td>Get the entity's identifier</td>
+    <td><code>id</code></td>
+    <td>Get the entity's identifier</td>
 </tr>
 <tr>
-	<td><code>self</code></td>
-	<td>Get the URL to the entity</td>
+    <td><code>self</code></td>
+    <td>Get the URL to the entity</td>
 </tr>
 <tr>
-	<td><code>created</code></td>
-	<td>Get the entity created datetime</td>
+    <td><code>created</code></td>
+    <td>Get the entity created datetime</td>
 </tr>
 <tr>
-	<td><code>changed</code></td>
-	<td>Get the entity changed datetime</td>
+    <td><code>changed</code></td>
+    <td>Get the entity changed datetime</td>
 </tr>
 </tbody>
 </table>

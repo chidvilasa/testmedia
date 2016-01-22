@@ -1,0 +1,499 @@
+{
+    "count": 60,
+    "data": [
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/195"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Motoring VOD 38",
+            "categories": [
+                135,
+                9
+            ],
+            "changed": 1452472793,
+            "comments": null,
+            "created": 1452143281,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/568df2b493b71"
+                    }
+                }
+            },
+            "homepage_promote": "1",
+            "id": 195,
+            "label": "VOD Motoring 38",
+            "tags": [
+                {
+                    "tag_id": 233,
+                    "tag_name": "just"
+                }
+            ],
+            "uuid": "806f212e-d468-4861-8b4e-c45a32843cff",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_695.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/695/thumbnail-695_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/57"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Select if this content can be shown to all affiliates. This setting will override the options below, but you must still select a domain that &quot;owns&quot; this content.Please note: If this is selected, any new affiliate sites created will also inherit this content. For greater control over your media use the checkboxes below to manage content on a per affiliate basis",
+            "categories": [
+                95,
+                1,
+                123,
+                11
+            ],
+            "changed": 1450760181,
+            "comments": null,
+            "created": 1435669121,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/559292828a6b7"
+                    }
+                }
+            },
+            "homepage_promote": "1",
+            "id": 57,
+            "label": "testing of video ",
+            "tags": [
+                {
+                    "tag_id": 67,
+                    "tag_name": "tg"
+                }
+            ],
+            "uuid": "85fa7b27-4fce-4f26-b89c-c1bf89bb70b9",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_169.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/169/thumbnail-169_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/75"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "This is a test video",
+            "categories": [
+                143,
+                141,
+                115,
+                89,
+                1,
+                95,
+                115,
+                21
+            ],
+            "changed": 1449207526,
+            "comments": null,
+            "created": 1448880013,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/565c2792d721f"
+                    }
+                }
+            },
+            "homepage_promote": "1",
+            "id": 75,
+            "label": "Hostworks",
+            "tags": null,
+            "uuid": "6b4425cb-cb3f-4665-97bc-0392ebb9ab8d",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_279.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/279/thumbnail-279_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/151"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Motoring VOD 10",
+            "categories": [
+                135
+            ],
+            "changed": 1452142201,
+            "comments": null,
+            "created": 1452142141,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/568dee42043b0"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 151,
+            "label": "VOD Motoring 10",
+            "tags": [
+                {
+                    "tag_id": 195,
+                    "tag_name": "first"
+                }
+            ],
+            "uuid": "3e182338-0c91-41b9-9b45-1ac7766ae769",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_555.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/555/thumbnail-555_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/149"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Motoring VOD 9",
+            "categories": [
+                135
+            ],
+            "changed": 1452142201,
+            "comments": null,
+            "created": 1452142141,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/568dee41888a8"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 149,
+            "label": "VOD Motoring 9",
+            "tags": [
+                {
+                    "tag_id": 159,
+                    "tag_name": "just"
+                }
+            ],
+            "uuid": "1891fff4-4bce-46e7-a3f8-da3fe6e4f467",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_553.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/553/thumbnail-553_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/147"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Motoring VOD 8",
+            "categories": [
+                135
+            ],
+            "changed": 1452142201,
+            "comments": null,
+            "created": 1452142141,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/568dee41054d2"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 147,
+            "label": "VOD Motoring 8",
+            "tags": [
+                {
+                    "tag_id": 157,
+                    "tag_name": "are"
+                }
+            ],
+            "uuid": "cc3c96ec-1459-48c3-8cfd-829294dfc45b",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_551.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/551/thumbnail-551_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/145"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Motoring VOD 7",
+            "categories": [
+                135
+            ],
+            "changed": 1452142201,
+            "comments": null,
+            "created": 1452142141,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/568dee3f73202"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 145,
+            "label": "VOD Motoring 7",
+            "tags": [
+                {
+                    "tag_id": 155,
+                    "tag_name": "videos"
+                }
+            ],
+            "uuid": "9748a57d-e13f-49ce-a791-7c866e85914a",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_549.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/549/thumbnail-549_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/143"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Motoring VOD 6",
+            "categories": [
+                135
+            ],
+            "changed": 1452142205,
+            "comments": null,
+            "created": 1452142081,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/568dee058afda"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 143,
+            "label": "VOD Motoring 6",
+            "tags": [
+                {
+                    "tag_id": 231,
+                    "tag_name": "these"
+                }
+            ],
+            "uuid": "9b0b2c7a-075b-4a50-87b8-c2f66a7feecc",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_535.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/535/thumbnail-535_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/141"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Motoring VOD 5",
+            "categories": [
+                135
+            ],
+            "changed": 1452142205,
+            "comments": null,
+            "created": 1452142021,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/568dedc9e9d89"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 141,
+            "label": "VOD Motoring 5",
+            "tags": [
+                {
+                    "tag_id": 229,
+                    "tag_name": "leave"
+                }
+            ],
+            "uuid": "6625fc90-137c-4e87-ad58-3b9f77969829",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_523.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/523/thumbnail-523_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/139"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Motoring VOD 4",
+            "categories": [
+                135
+            ],
+            "changed": 1452142205,
+            "comments": null,
+            "created": 1452142021,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/568dedc97147e"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 139,
+            "label": "VOD Motoring 4",
+            "tags": [
+                {
+                    "tag_id": 227,
+                    "tag_name": "my"
+                }
+            ],
+            "uuid": "6f603eb5-2a8c-403a-8e1a-efd3015bb694",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_521.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/521/thumbnail-521_0001.jpg"
+            }
+        }
+    ],
+    "next": {
+        "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos?sort=-homepage_promote&page=2",
+        "title": "Next"
+    },
+    "self": {
+        "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos",
+        "title": "Self"
+    }
+}

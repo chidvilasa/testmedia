@@ -30,7 +30,7 @@ class MediaFoundryApiEpisodeTest extends PHPUnit_Framework_TestCase
     /** @test */
     public function it_loads_a_single_episode_from_the_api_episodes_endpoint()
     {
-    	$client = $this->mockMediaFoundryApiClient('episode_73');
+    	$client = $this->mockMediaFoundryApiClient('episodes_73');
 
         $episode = $client->episodes($this->endpointUri('episodes/73'));
 

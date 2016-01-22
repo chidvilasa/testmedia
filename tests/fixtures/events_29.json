@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "_links": {
+                "self": {
+                    "href": "http://admin-latest.pp.mediafoundry.com.au/api/v1.0/events/29"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": null,
+            "categories": [
+                0,
+                11
+            ],
+            "embed": null,
+            "event_schedule": {
+                "schedule_from": 1448301120,
+                "schedule_to": 1448488080
+            },
+            "event_type": "Time Bounded",
+            "id": 29,
+            "image": null,
+            "label": "test live event",
+            "media_type": "Video",
+            "stream": {
+                "_links": {
+                    "self": {
+                        "href": "http://sanjeev.mf.com/sites/default/files/manifest/manifest_178.m3u8"
+                    }
+                }
+            },
+            "tags": null,
+            "uuid": "ef4109e3-052e-4cb5-886a-96f5c0946768"
+        }
+    ],
+    "self": {
+        "href": "http://admin-latest.pp.mediafoundry.com.au/api/v1.0/events/29",
+        "title": "Self"
+    }
+}

@@ -38,13 +38,14 @@ class MediaFoundryApiCategoryTest extends PHPUnit_Framework_TestCase
      */
     public function it_loads_a_single_category_from_the_api_categories_endpoint()
     {
-        $client = $this->mockMediaFoundryApiClient('category_61');
+        $client = $this->mockMediaFoundryApiClient('categories_61');
 
         $category = $client->categories($this->endpointUri('categories/61'));
 
         // Check the main category instance
         $this->assertInstanceOf('MediaFoundry\Api\Entities\Category', $category);
         $this->assertEquals(61, $category->id);
+        $this->assertEquals('1b3ad51c-c4c4-4751-889d-eb8314354a5a', $category->uuid);
         $this->assertEquals('Santos Tour Down Under', $category->label);
         $this->assertEquals('http://admin-latest.pp.mediafoundry.com.au/api/v1.0/categories/61', $category->self);
         $this->assertEquals('Santos Tour Down Under', $category->name);

@@ -21,8 +21,8 @@ class Video extends Entity implements OpenGraphable
      */
     public function image()
     {
-        return isset($this->entity->video_details->image)
-            ? $this->entity->video_details->image
+        return isset($this->entity->video_details->thumbnail)
+            ? $this->entity->video_details->thumbnail
             : null;
     }
 
@@ -34,8 +34,8 @@ class Video extends Entity implements OpenGraphable
      */
     public function manifest()
     {
-        return isset($this->entity->video_details->manifest)
-            ? $this->entity->video_details->manifest
+        return isset($this->entity->video_details->manifest->{'_links'}->self->href)
+            ? $this->entity->video_details->manifest->{'_links'}->self->href
             : null;
     }
 

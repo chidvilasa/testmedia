@@ -44,9 +44,8 @@ class MediaFoundryApiSeriesTest extends PHPUnit_Framework_TestCase
         $this->assertInstanceOf('\DateTime', $series->changed);
         $this->assertSame(1447207680, $series->changed->getTimestamp());
         $this->assertEquals('http://admin-latest.pp.mediafoundry.com.au/sites/default/files/House_of_Cards_title_card_0.png', $series->icon);
-        $this->assertInternalType('array', $series->genres);
-        $this->assertCount(2, $series->genres);
-        $this->assertContainsOnlyInstancesOf('\MediaFoundry\Api\Entities\Genre', $series->genres);
+        $this->assertInternalType('array', $series->categories);
+        $this->assertCount(2, $series->categories);
         $this->assertInstanceOf('\MediaFoundry\Api\Entities\Season', $series->season);
     }
 }

@@ -23,18 +23,7 @@ class Series extends Entity
      */
     public function icon()
     {
-        return $this->entity->images->icon;
-    }
-
-
-    /**
-     * Get the series genres.
-     *
-     * @return mixed
-     */
-    public function genres()
-    {
-        return $this->collectEntitiesFromArray($this->entity->genre, Genre::class);
+        return $this->entity->images;
     }
 
 

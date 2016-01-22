@@ -1,0 +1,55 @@
+{
+    "data": [
+        {
+            "_links": {
+                "self": {
+                    "href": "http://admin-latest.pp.mediafoundry.com.au/api/v1.0/events/27"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "",
+            "categories": [
+                9,
+                0,
+                11
+            ],
+            "embed": null,
+            "event_schedule": null,
+            "event_type": "Ongoing event",
+            "id": 27,
+            "image": {
+                "_links": {
+                    "self": {
+                        "href": "http://admin-latest.pp.mediafoundry.com.au/sites/default/files/styles/thumbnail/public/0/images.jpg?itok=BaQ_pW4R"
+                    }
+                }
+            },
+            "label": "Latest event",
+            "media_type": "Video",
+            "stream": {
+                "_links": {
+                    "self": {
+                        "href": "http://sanjeev.mf.com/sites/default/files/manifest/manifest_178.m3u8"
+                    }
+                }
+            },
+            "tags": [
+                {
+                    "tag_id": 61,
+                    "tag_name": "qa"
+                }
+            ],
+            "uuid": "411109f6-23b1-493b-922e-b5ce0d4d947c"
+        }
+    ],
+    "self": {
+        "href": "http://admin-latest.pp.mediafoundry.com.au/api/v1.0/events/27",
+        "title": "Self"
+    }
+}

@@ -1,0 +1,480 @@
+{
+    "count": 60,
+    "data": [
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/23"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "test&lt;a href=&quot;#&quot;&gt;Here is a link&lt;/a&gt;",
+            "categories": [
+                9
+            ],
+            "changed": 1435664649,
+            "comments": null,
+            "created": 1433200953,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/556ce939b1654"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 23,
+            "label": "Media Foundry promo",
+            "tags": null,
+            "uuid": "795e4802-3666-4965-8e18-4b0ff80b15d1",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_15.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/15/thumbnail-15_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/25"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Configure the meta tags below. Tokens, e.g. &quot;[node:summary]&quot;, automatically insert the corresponding information from that field or value, which helps to avoid redundant meta data and possible search engine penalization; see the &quot;Browse available tokens&quot; popup for more details.",
+            "categories": [
+                9,
+                11
+            ],
+            "changed": 1435664363,
+            "comments": null,
+            "created": 1433401021,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/556ff6bee729d"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 25,
+            "label": "Test video",
+            "tags": null,
+            "uuid": "658fda4a-eb2f-4242-a20c-0746ea7576d9",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_43.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/43/thumbnail-43_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/31"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "ds",
+            "categories": [
+                11
+            ],
+            "changed": 1435570152,
+            "comments": null,
+            "created": 1435570152,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/55910fe8c4853"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 31,
+            "label": "title of video should not display on publisher site",
+            "tags": [
+                {
+                    "tag_id": 63,
+                    "tag_name": "tagvid"
+                }
+            ],
+            "uuid": "f925bc73-8ac4-4e93-b9f3-0b7263475b26",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_77.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/77/thumbnail-77_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/41"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Test Transcode",
+            "categories": [
+                11
+            ],
+            "changed": 1435644627,
+            "comments": null,
+            "created": 1435644627,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/559232d43b026"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 41,
+            "label": "Test Transcode",
+            "tags": null,
+            "uuid": "cd28684c-f2cd-4aa1-b215-cf302dd1f311",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_95.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/95/thumbnail-95_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/45"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": null,
+            "categories": [
+                1
+            ],
+            "changed": 1435668401,
+            "comments": null,
+            "created": 1435646474,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/55923a0b8cd02"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 45,
+            "label": "new test",
+            "tags": null,
+            "uuid": "1632d763-40de-4eb1-8f2c-84e964264c1d",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_107.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/107/thumbnail-107_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/47"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Bitrate Testing",
+            "categories": [
+                11
+            ],
+            "changed": 1435648185,
+            "comments": null,
+            "created": 1435648185,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/559240c865907"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 47,
+            "label": "Bitrate Test",
+            "tags": null,
+            "uuid": "28dcc23f-b006-4639-80b3-a3a567317f5c",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_127.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/127/thumbnail-127_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/57"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Select if this content can be shown to all affiliates. This setting will override the options below, but you must still select a domain that &quot;owns&quot; this content.Please note: If this is selected, any new affiliate sites created will also inherit this content. For greater control over your media use the checkboxes below to manage content on a per affiliate basis",
+            "categories": [
+                95,
+                1,
+                123,
+                11
+            ],
+            "changed": 1450760181,
+            "comments": null,
+            "created": 1435669121,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/559292828a6b7"
+                    }
+                }
+            },
+            "homepage_promote": "1",
+            "id": 57,
+            "label": "testing of video ",
+            "tags": [
+                {
+                    "tag_id": 67,
+                    "tag_name": "tg"
+                }
+            ],
+            "uuid": "85fa7b27-4fce-4f26-b89c-c1bf89bb70b9",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_169.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/169/thumbnail-169_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/59"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "Latest Video upload for testing",
+            "categories": [
+                143,
+                141,
+                91,
+                1
+            ],
+            "changed": 1448839762,
+            "comments": null,
+            "created": 1435754667,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/5593e0ad1646d"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 59,
+            "label": "Latest Video",
+            "tags": [
+                {
+                    "tag_id": 145,
+                    "tag_name": "test"
+                },
+                {
+                    "tag_id": 147,
+                    "tag_name": "tag event"
+                },
+                {
+                    "tag_id": 149,
+                    "tag_name": "kris"
+                }
+            ],
+            "uuid": "977bf35f-7317-454f-96ef-0cf21bc45ff3",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_175.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/175/thumbnail-175_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/61"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": null,
+            "categories": [
+                11
+            ],
+            "changed": 1451964273,
+            "comments": null,
+            "created": 1440416993,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/55db04e2a9985"
+                    }
+                }
+            },
+            "homepage_promote": "0",
+            "id": 61,
+            "label": "test ",
+            "tags": null,
+            "uuid": "e0e414b9-fd26-4e53-83ce-954edad8334b",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_179.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/179/thumbnail-179_0001.jpg"
+            }
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos/75"
+                }
+            },
+            "ad": {
+                "_links": {
+                    "self": {
+                        "href": null
+                    }
+                }
+            },
+            "body": "This is a test video",
+            "categories": [
+                143,
+                141,
+                115,
+                89,
+                1,
+                95,
+                115,
+                21
+            ],
+            "changed": 1449207526,
+            "comments": null,
+            "created": 1448880013,
+            "embed": {
+                "_links": {
+                    "self": {
+                        "href": "http://latest.pp.mediafoundry.com.au/embed/565c2792d721f"
+                    }
+                }
+            },
+            "homepage_promote": "1",
+            "id": 75,
+            "label": "Hostworks",
+            "tags": null,
+            "uuid": "6b4425cb-cb3f-4665-97bc-0392ebb9ab8d",
+            "video_details": {
+                "manifest": {
+                    "_links": {
+                        "self": {
+                            "href": "http://latest.pp.mediafoundry.com.au/sites/default/files/manifest/manifest_279.m3u8"
+                        }
+                    }
+                },
+                "thumbnail": "http://latest.pp.mediafoundry.com.au/sites/default/files/videos/thumbnails/279/thumbnail-279_0001.jpg"
+            }
+        }
+    ],
+    "next": {
+        "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos?sort=created&page=2",
+        "title": "Next"
+    },
+    "self": {
+        "href": "http://latest.pp.mediafoundry.com.au/api/v1.0/videos",
+        "title": "Self"
+    }
+}
